@@ -20,8 +20,8 @@ class SignIn extends Component {
 	render() {
 		return (
 			<div className='container'>
-				<h6 className='blue-text'>Sign In</h6>
 				<form className='white' onSubmit={this.handleSubmit}>
+					<h6 className='blue-text'>Sign In</h6>
 					<div className='input-field col s6'>
 						<label htmlFor='email'>Email</label>
 						<input type='email' id='email' onChange={this.handleChange}></input>

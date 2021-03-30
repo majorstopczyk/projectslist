@@ -20,8 +20,8 @@ class CreateProject extends Component {
 	render() {
 		return (
 			<div className='container'>
-				<h6 className='blue-text'>Create Project</h6>
 				<form className='white' onSubmit={this.handleSubmit}>
+					<h6 className='blue-text'>Create Project</h6>
 					<div className='input-field col s6'>
 						<label htmlFor='title'>Title</label>
 						<input type='text' id='title' onChange={this.handleChange}></input>
